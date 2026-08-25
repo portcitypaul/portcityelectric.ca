@@ -82,13 +82,19 @@ body {
   margin: 0 auto;
   overflow: hidden;
 }
-.logo-crop img {
+.logo-crop img,
+.logo-art {
   position: absolute;
   width: 180.7%;
   max-width: none;
   height: auto;
+  aspect-ratio: 1 / 1;
   left: -5.8%;
   top: -17.5%;
+}
+.logo-art {
+  display: block;
+  background: url("brand-master.png") left top / 100% auto no-repeat;
 }
 .rule {
   display: flex;
