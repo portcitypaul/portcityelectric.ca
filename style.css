@@ -81,7 +81,7 @@ body {
 .logo-crop {
   position: relative;
   width: min(700px, 94%);
-  aspect-ratio: 1.78;
+  aspect-ratio: 1.72;
   margin: 0 auto clamp(4px, 1vh, 12px);
   overflow: hidden;
 }
@@ -168,7 +168,7 @@ footer {
   }
   .logo-crop {
     width: min(560px, 94vw);
-    aspect-ratio: 1.8;
+    aspect-ratio: 1.72;
     margin-inline: auto;
   }
   .rule {
