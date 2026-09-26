@@ -81,23 +81,16 @@ body {
 .logo-crop {
   position: relative;
   width: min(700px, 94%);
-  aspect-ratio: 1.72;
+  aspect-ratio: 1618 / 972;
   margin: 0 auto clamp(4px, 1vh, 12px);
   overflow: hidden;
-}
-.logo-crop img,
-.logo-art {
-  position: absolute;
-  width: 180.7%;
-  max-width: none;
-  height: auto;
-  aspect-ratio: 1 / 1;
-  left: -5.8%;
-  top: -17.5%;
+  mix-blend-mode: screen;
 }
 .logo-art {
   display: block;
-  background: url("brand-master.png") left top / 100% auto no-repeat;
+  width: 100%;
+  height: 100%;
+  background: url("port-city-official-logo.png") center / contain no-repeat;
 }
 .rule {
   display: flex;
@@ -192,7 +185,7 @@ footer {
   }
   .logo-crop {
     width: min(560px, 94vw);
-    aspect-ratio: 1.72;
+    aspect-ratio: 1618 / 972;
     margin-inline: auto;
   }
   .rule {
